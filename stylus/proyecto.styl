@@ -1,22 +1,23 @@
 /*------- Normalize -------*/
 @import 'normalize.styl'
 
+/*---fuentes---*/
+@import 'fuentes.styl'
+
+@import "nib"
+
 
 /*-- variables --*/
 azul = blue
 amarillo = yellow
-rojo = red
 blanco = #fff
-negro = #000
+negro = #333333
+gris = #818181
+rojo = #bd255b
+vendor-prefixes = webkit o ms moz official
 
 
 /*--------mixins---------*/
-left()
-  float left
-
-right()
-  float right
-
 border()
   border 1px solid rojo
 
@@ -57,12 +58,34 @@ font(valor)
 .clear
   clear both
 
+.relative
+	position relative
 
+.padding
+	padding 1em
+
+.nombre
+		bold()
+
+.autor
+	 	color gris
+
+p
+	margin .5em 0
+
+.border-bottom 
+   border-bottom 1px solid gris
 
 /*-----------------Body y Container---------------------*/
 body
-  background azul
-  alinear()
+  font(16px)
+  color negro
+  font-family sans-serif
+
+.wrapper
+	font(0)
+	padding 1.4rem
+	text-align center
 
 
 
@@ -73,7 +96,24 @@ body
 
 
 /*-------------------------header-----------------------*/
-
+header
+	position relative
+	.button-menu
+	   color negro
+	   left .5em
+	   margin-top -10px
+	   position absolute
+	   top 50%
+	   transition .5s
+	   &:hover
+	   &:active
+	   	 color gris
+	.titulo
+     bold()
+     font(1em)
+     line-height 3.5em
+     margin 0
+     text-align center
 
 
 /*-----------------------Slider-------------------------*/
@@ -83,9 +123,82 @@ body
 /*----------------------Contenido-----------------------*/
 
 /*----------Home-----------*/
+.reproductor
+	.progress
+    	margin 1em 0
+    	position relative
+    	.min
+    	.max
+    	  	 position absolute
+    	  	 font(.8em)
+    	  	 top -5px
+    	.min
+    		left 0
+    	.max
+    		right 0
+    	.barra
+    	  background gris
+    	  border-radius 5px
+    	  height 5px
+    	  margin 0 auto 
+    	  width 75%
+    	  .carga
+    	  	background rojo
+    	  	border-radius 5px
+    	  	height 5px 
+    	  	position relative
+    	  	width 30%
+    	  	.circulo
+  	  	 	  background negro
+  	  	 	  border-radius 50%
+  	  	 	  height 15px
+  	  	 	  position absolute
+  	  	 	  right 0
+  	  	 	  top -5px
+  	  	 	  width 15px
+  .descripcion
+  	  text-align center
+  .play
+  	  padding .9em 0
+  	  text-align center
+  	  .gris
+  	  	font(1.2em)
+  	  	color gris
+  	  	margin 0 3px
+  	  	transition .5s
+  	  	&:hover
+  	  	&:active
+  	  		color negro
+	  
+	.acciones
+		background rgba(0,0,0,.5)
+		bottom 0
+		left: 0
+		position absolute
+		right: 0
+		text-align right
+		.action
+      color blanco
+      font(1.2em)
+      margin-right .5em
+      transition .5s
+      &:hover
+      &:active
+      	color negro
+
+.cancion
+	 alinear()
+	 font(1rem)
+	 margin 0 1em 1em 0
+	 text-align left
+	 width 8rem
+	 &:nth-child(even)
+		   margin-right 0
+	 figure
+	 	   margin 0
 
 
 
 
 
-/*---------------------Footer---------------------------
+/*---------------------Footer---------------------------*/
