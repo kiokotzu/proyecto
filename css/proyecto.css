@@ -280,6 +280,11 @@ body {
   font-size: 16px;
   color: #333;
   font-family: sans-serif;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
 }
 .wrapper {
   font-size: 0;
@@ -317,23 +322,28 @@ header .titulo {
 /*-----------------------Slider-------------------------*/
 /*----------------------Contenido-----------------------*/
 /*----------Home-----------*/
-.reproductor .progress {
+.reproductor {
+  margin: 0 auto;
+  display: block;
+  width: 20em;
+}
+.progress {
   margin: 1em 0;
   position: relative;
 }
-.reproductor .progress .min,
-.reproductor .progress .max {
-  position: absolute;
+.progress .min,
+.progress .max,
+.progress position absolute {
   font-size: 0.8em;
   top: -5px;
 }
-.reproductor .progress .min {
+.progress .min {
   left: 0;
 }
-.reproductor .progress .max {
+.progress .max {
   right: 0;
 }
-.reproductor .progress .barra {
+.progress .barra {
   background: #818181;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -341,7 +351,7 @@ header .titulo {
   margin: 0 auto;
   width: 75%;
 }
-.reproductor .progress .barra .carga {
+.progress .barra .carga {
   background: #bd255b;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -349,7 +359,7 @@ header .titulo {
   position: relative;
   width: 30%;
 }
-.reproductor .progress .barra .carga .circulo {
+.progress .barra .carga .circulo {
   background: #333;
   -webkit-border-radius: 50%;
   border-radius: 50%;
@@ -359,14 +369,14 @@ header .titulo {
   top: -5px;
   width: 15px;
 }
-.reproductor .descripcion {
+.descripcion {
   text-align: center;
 }
-.reproductor .play {
+.play {
   padding: 0.9em 0;
   text-align: center;
 }
-.reproductor .play .gris {
+.play .gris {
   font-size: 1.2em;
   color: #818181;
   margin: 0 3px;
@@ -376,11 +386,11 @@ header .titulo {
   -moz-transition: 0.5s;
   transition: 0.5s;
 }
-.reproductor .play .gris:hover,
-.reproductor .play .gris:active {
+.play .gris:hover,
+.play .gris:active {
   color: #333;
 }
-.reproductor .acciones {
+.acciones {
   background: rgba(0,0,0,0.5);
   bottom: 0;
   left: 0;
@@ -388,7 +398,7 @@ header .titulo {
   right: 0;
   text-align: right;
 }
-.reproductor .acciones .action {
+.acciones .action {
   color: #fff;
   font-size: 1.2em;
   margin-right: 0.5em;
@@ -398,8 +408,8 @@ header .titulo {
   -moz-transition: 0.5s;
   transition: 0.5s;
 }
-.reproductor .acciones .action:hover,
-.reproductor .acciones .action:active {
+.acciones .action:hover,
+.acciones .action:active {
   color: #333;
 }
 .cancion {
@@ -418,3 +428,16 @@ header .titulo {
   margin: 0;
 }
 /*---------------------Footer---------------------------*/
+/*------------------Mediaqueries------------------------*/
+@media screen and (min-width:480px) {
+  .cancion:nth-child(even) {
+    margin-right: 1em;
+  }
+  .reproductor {
+    width: auto;
+  }
+  .reproductor img {
+    width: 100%;
+    height: auto;
+  }
+}

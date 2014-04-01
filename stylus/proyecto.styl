@@ -81,6 +81,7 @@ body
   font(16px)
   color negro
   font-family sans-serif
+  transition .5s
 
 .wrapper
 	font(0)
@@ -124,12 +125,14 @@ header
 
 /*----------Home-----------*/
 .reproductor
+  centrar()
+  width 20em
 	.progress
     	margin 1em 0
     	position relative
     	.min
     	.max
-    	  	 position absolute
+    	position absolute
     	  	 font(.8em)
     	  	 top -5px
     	.min
@@ -202,3 +205,16 @@ header
 
 
 /*---------------------Footer---------------------------*/
+
+
+
+/*------------------Mediaqueries------------------------*/
+@media screen and (min-width:480px)
+  .cancion
+    &:nth-child(even)
+      margin-right 1em
+  .reproductor
+    width auto
+    img
+      width 100%
+      height auto

@@ -36,7 +36,7 @@
 
 <!--=======================Inicio Contenido=============================-->
 
-<section class="reproductor">
+<section class="reproductor medio">
   <div class="musica">
     <figure class="relative">
       <img src="imgs/test-playing.jpg"  width="320" height="320" alt="Tomalo">
