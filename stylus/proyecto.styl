@@ -69,7 +69,7 @@ font(valor)
 	 	color gris
 
 p
-	margin .5em 0
+	margin .8em 0
 
 .border-bottom 
    border-bottom 1px solid gris
@@ -77,6 +77,36 @@ p
 .wrap
     width 1000px
     centrar()
+
+.item
+  padding 1em 0
+
+.vinietas-none
+  list-style none
+
+.gris
+  font(1.2em)
+  color gris
+  margin 0 3px
+  transition .5s
+  &:hover
+  &:active
+    color negro
+
+
+/*-------------------animaciones css3-------------------*/
+@keyframes circulo
+ 0%
+  transform scale(1)
+ 100%
+  transform scale(1.5)
+  opacity 0
+
+@keyframes barra
+  0%
+    width 0
+  100%
+    width 100%
 
 /*-----------------Body y Container---------------------*/
 body
@@ -100,7 +130,9 @@ body
 
 /*-------------------------header-----------------------*/
 header
-	position relative
+  position relative
+  background blanco
+  border-bottom 1px solid gris
 	.button-menu
 	   color negro
 	   left .5em
@@ -156,32 +188,27 @@ nav
       margin 0 auto 
       width 75%
       .carga
-      	background rojo
-      	border-radius 5px
-      	height 5px 
-      	position relative
-      	width 30%
+        animation 20s barra infinite linear
+        background rojo
+        border-radius 5px
+        height 5px 
+        position relative
+        width 30%
       	.circulo
-  	 	 	  background negro
-  	 	 	  border-radius 50%
-  	 	 	  height 15px
-  	 	 	  position absolute
-  	 	 	  right 0
-  	 	 	  top -5px
-  	 	 	  width 15px
+          animation 1s circulo infinite 
+          background negro
+          border-radius 50%
+          height 15px
+          position absolute
+          right 0
+          top -5px
+          width 15px
+          
   .descripcion
   	  text-align center
   .play
   	  padding .9em 0
   	  text-align center
-  	  .gris
-  	  	font(1.2em)
-  	  	color gris
-  	  	margin 0 3px
-  	  	transition .5s
-  	  	&:hover
-  	  	&:active
-  	  		color negro
 	  
 	.acciones
 		background rgba(0,0,0,.5)
@@ -198,7 +225,8 @@ nav
       &:hover
       &:active
       	color negro
-
+.canciones
+  display none 
 .cancion
 	 alinear()
 	 font(1rem)
@@ -230,11 +258,28 @@ nav
       height auto
 
 @media screen and (min-width:1000px)
+  header
+    border none
   .button-menu
   header .titulo
     display none
   .logo
     display block
+  .largo
+    margin 0 auto
+    overflow hidden
+    padding-top 1.3em;
+    width 62.5em
+  .musica
+    float left
+    width 32.5em
+  .descripcion
+    display none
+  .canciones
+    border-left 1px solid gris
+    display block
+    padding 0 2em
+    width 22em
   nav
     background gris_fondo
     border-top 1px solid gris

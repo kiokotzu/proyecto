@@ -36,38 +36,119 @@
 
 <!--=======================Inicio Contenido=============================-->
 
-<section class="reproductor medio">
+<section class="reproductor medio largo">
   <div class="musica">
-    <figure class="relative">
-      <img src="imgs/test-playing.jpg"  width="320" height="320" alt="Tomalo">
-      <div class="acciones padding">
-          <a href="" class="action icon-add"></a>
-          <a href="" class="action icon-love"></a>
-          <a href="" class="action icon-share"></a>
-      </div>
-    </figure>
-    <div class="padding">
-      <div class="progress">
-        <span class="min">0:50</span>
-        <div class="barra">
-          <div class="carga">
-            <div class="circulo"></div>
+    <div class="reprod">
+      <figure class="relative">
+        <img src="imgs/test-playing.jpg"  width="320" height="320" alt="Tomalo">
+        <div class="acciones padding">
+            <a href="" class="action icon-add"></a>
+            <a href="" class="action icon-love"></a>
+            <a href="" class="action icon-share"></a>
+        </div>
+      </figure>
+      <div class="padding">
+        <div class="progress">
+          <span class="min">0:50</span>
+          <div class="barra">
+            <div class="carga">
+              <div class="circulo"></div>
+            </div>
           </div>
+          <span class="max">4:50</span>
         </div>
-        <span class="max">4:50</span>
-      </div>
-      <div class="descripcion border-bottom">
-        <p class="nombre">Lorem ipsum dolor</p>
-        <p class="autro">quis praesentium vitae doloribus repudiandae.</p>
-      </div>
-      <div class="play padding-tb">
-          <a href="" class="gris icon-prev"></a>
-          <a href="" class="gris icon-play"></a>
-          <a href="" class="gris icon-next"></a>
-          <a href="" class="gris icon-random"></a>
-          <a href="" class="gris icon-vol"></a>
+        <div class="descripcion border-bottom">
+          <p class="nombre">Lorem ipsum dolor</p>
+          <p class="autro">quis praesentium vitae doloribus repudiandae.</p>
         </div>
+        <div class="play padding-tb">
+            <a href="" class="gris icon-prev"></a>
+            <a href="" class="gris icon-play"></a>
+            <a href="" class="gris icon-next"></a>
+            <a href="" class="gris icon-random"></a>
+            <a href="" class="gris icon-vol"></a>
+          </div>
+      </div>
     </div>
+  </div>
+
+  <div class="canciones right">
+    <p class="nombre">Lorem</p>
+    <p class="autor">Lorem ipsum</p>
+    <ul class="vinietas-none">
+      <li class="item border-bottom">
+        <span>Lorem ipsum dolor sit amet</span>
+        <span class="right">
+          <a href="" class="action icon-add gris"></a>
+          <a href="" class="action icon-love gris"></a>
+          <a href="" class="action icon-share gris"></a>
+        </span>
+      </li>
+      <li class="item border-bottom">
+        <span>Lorem ipsum dolor sit amet</span>
+        <span class="right">
+          <a href="" class="action icon-add gris"></a>
+          <a href="" class="action icon-love gris"></a>
+          <a href="" class="action icon-share gris"></a>
+        </span>
+      </li>
+      <li class="item border-bottom">
+        <span>Lorem ipsum dolor sit amet</span>
+        <span class="right">
+          <a href="" class="action icon-add gris"></a>
+          <a href="" class="action icon-love gris"></a>
+          <a href="" class="action icon-share gris"></a>
+        </span>
+      </li>
+      <li class="item border-bottom">
+        <span>Lorem ipsum dolor sit amet</span>
+        <span class="right">
+          <a href="" class="action icon-add gris"></a>
+          <a href="" class="action icon-love gris"></a>
+          <a href="" class="action icon-share gris"></a>
+        </span>
+      </li>
+      <li class="item border-bottom">
+        <span>Lorem ipsum dolor sit amet</span>
+        <span class="right">
+          <a href="" class="action icon-add gris"></a>
+          <a href="" class="action icon-love gris"></a>
+          <a href="" class="action icon-share gris"></a>
+        </span>
+      </li>
+       <li class="item border-bottom">
+        <span>Lorem ipsum dolor sit amet</span>
+        <span class="right">
+          <a href="" class="action icon-add gris"></a>
+          <a href="" class="action icon-love gris"></a>
+          <a href="" class="action icon-share gris"></a>
+        </span>
+      </li>
+      <li class="item border-bottom">
+        <span>Lorem ipsum dolor sit amet</span>
+        <span class="right">
+          <a href="" class="action icon-add gris"></a>
+          <a href="" class="action icon-love gris"></a>
+          <a href="" class="action icon-share gris"></a>
+        </span>
+      </li>
+      <li class="item border-bottom">
+        <span>Lorem ipsum dolor sit amet</span>
+        <span class="right">
+          <a href="" class="action icon-add gris"></a>
+          <a href="" class="action icon-love gris"></a>
+          <a href="" class="action icon-share gris"></a>
+        </span>
+      </li>
+      <li class="item border-bottom">
+        <span>Lorem ipsum dolor sit amet</span>
+        <span class="right">
+          <a href="" class="action icon-add gris"></a>
+          <a href="" class="action icon-love gris"></a>
+          <a href="" class="action icon-share gris"></a>
+        </span>
+      </li>
+    </ul>
   </div>
 </section>
 

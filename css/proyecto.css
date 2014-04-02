@@ -270,7 +270,7 @@ img {
   color: #818181;
 }
 p {
-  margin: 0.5em 0;
+  margin: 0.8em 0;
 }
 .border-bottom {
   border-bottom: 1px solid #818181;
@@ -280,6 +280,27 @@ p {
   margin: 0 auto;
   display: block;
 }
+.item {
+  padding: 1em 0;
+}
+.vinietas-none {
+  list-style: none;
+}
+.gris {
+  font-size: 1.2em;
+  color: #818181;
+  margin: 0 3px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
+}
+.gris:hover,
+.gris:active {
+  color: #333;
+}
+/*-------------------animaciones css3-------------------*/
 /*-----------------Body y Container---------------------*/
 body {
   background: #f0f0f0;
@@ -296,8 +317,10 @@ body {
 /*-------------------------header-----------------------*/
 header {
   position: relative;
+  background: #fff;
+  border-bottom: 1px solid #818181;
 }
-header .button-menu {
+.button-menu {
   color: #333;
   left: 0.5em;
   margin-top: -10px;
@@ -309,11 +332,11 @@ header .button-menu {
   -moz-transition: 0.5s;
   transition: 0.5s;
 }
-header .button-menu:hover,
-header .button-menu:active {
+.button-menu:hover,
+.button-menu:active {
   color: #818181;
 }
-header .titulo {
+.titulo {
   font-weight: bold;
   font-size: 1em;
   line-height: 3.5em;
@@ -362,6 +385,11 @@ nav {
   width: 75%;
 }
 .progress .barra .carga {
+  -webkit-animation: 20s barra infinite linear;
+  -o-animation: 20s barra infinite linear;
+  -ms-animation: 20s barra infinite linear;
+  -moz-animation: 20s barra infinite linear;
+  animation: 20s barra infinite linear;
   background: #bd255b;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -369,7 +397,12 @@ nav {
   position: relative;
   width: 30%;
 }
-.progress .barra .carga .circulo {
+.progress .barra .circulo {
+  -webkit-animation: 1s circulo infinite;
+  -o-animation: 1s circulo infinite;
+  -ms-animation: 1s circulo infinite;
+  -moz-animation: 1s circulo infinite;
+  animation: 1s circulo infinite;
   background: #333;
   -webkit-border-radius: 50%;
   border-radius: 50%;
@@ -385,20 +418,6 @@ nav {
 .play {
   padding: 0.9em 0;
   text-align: center;
-}
-.play .gris {
-  font-size: 1.2em;
-  color: #818181;
-  margin: 0 3px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -moz-transition: 0.5s;
-  transition: 0.5s;
-}
-.play .gris:hover,
-.play .gris:active {
-  color: #333;
 }
 .acciones {
   background: rgba(0,0,0,0.5);
@@ -421,6 +440,9 @@ nav {
 .acciones .action:hover,
 .acciones .action:active {
   color: #333;
+}
+.canciones {
+  display: none;
 }
 .cancion {
   display: inline-block;
@@ -452,12 +474,34 @@ nav {
   }
 }
 @media screen and (min-width:1000px) {
+  header {
+    border: none;
+  }
   .button-menu,
   header .titulo {
     display: none;
   }
   .logo {
     display: block;
+  }
+  .largo {
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 1.3em;
+    width: 62.5em;
+  }
+  .musica {
+    float: left;
+    width: 32.5em;
+  }
+  .descripcion {
+    display: none;
+  }
+  .canciones {
+    border-left: 1px solid #818181;
+    display: block;
+    padding: 0 2em;
+    width: 22em;
   }
   nav {
     background: #f0f0f0;
@@ -530,5 +574,150 @@ nav {
     margin-left: 0.4em;
     position: relative;
     top: 4px;
+  }
+}
+@-moz-keyframes circulo {
+  0% {
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+}
+@-webkit-keyframes circulo {
+  0% {
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+}
+@-o-keyframes circulo {
+  0% {
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+}
+@-ms-keyframes circulo {
+  0% {
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+}
+@keyframes circulo {
+  0% {
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+}
+@-moz-keyframes barra {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+@-webkit-keyframes barra {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+@-o-keyframes barra {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+@-ms-keyframes barra {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+@keyframes barra {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
   }
 }
