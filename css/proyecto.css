@@ -282,14 +282,10 @@ p {
 }
 /*-----------------Body y Container---------------------*/
 body {
-  font-size: 16px;
+  background: #f0f0f0;
   color: #333;
+  font-size: 16px;
   font-family: sans-serif;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -moz-transition: 0.5s;
-  transition: 0.5s;
 }
 .wrapper {
   font-size: 0;
@@ -323,6 +319,15 @@ header .titulo {
   line-height: 3.5em;
   margin: 0;
   text-align: center;
+}
+nav {
+  display: none;
+}
+.logo {
+  background: #fff;
+  padding: 1.3em 0;
+  display: none;
+  zoom: 1;
 }
 /*-----------------------Slider-------------------------*/
 /*----------------------Contenido-----------------------*/
@@ -451,9 +456,13 @@ header .titulo {
   header .titulo {
     display: none;
   }
+  .logo {
+    display: block;
+  }
   nav {
     background: #f0f0f0;
     border-top: 1px solid #818181;
+    display: block;
   }
   nav li {
     float: left;
@@ -472,9 +481,6 @@ header .titulo {
   }
   nav li a:hover {
     border-color: #818181;
-  }
-  .logo {
-    padding: 1.3em 0;
   }
   .logo .cont-logo {
     width: 122px;

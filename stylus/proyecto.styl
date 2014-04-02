@@ -80,10 +80,10 @@ p
 
 /*-----------------Body y Container---------------------*/
 body
-  font(16px)
+  background gris_fondo
   color negro
+  font(16px)
   font-family sans-serif
-  transition .5s
 
 .wrapper
 	font(0)
@@ -118,6 +118,14 @@ header
      margin 0
      text-align center
 
+nav
+  display none
+
+.logo
+  background blanco
+  padding 1.3em 0
+  display none
+  zoom 1
 
 /*-----------------------Slider-------------------------*/
 
@@ -225,9 +233,12 @@ header
   .button-menu
   header .titulo
     display none
+  .logo
+    display block
   nav
     background gris_fondo
     border-top 1px solid gris
+    display block
     li
       float left
       a
@@ -240,7 +251,6 @@ header
         &:hover
           border-color gris
   .logo 
-    padding 1.3em 0
     .cont-logo
       width 122px
   .usuario
