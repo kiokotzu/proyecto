@@ -275,6 +275,11 @@ p {
 .border-bottom {
   border-bottom: 1px solid #818181;
 }
+.wrap {
+  width: 1000px;
+  margin: 0 auto;
+  display: block;
+}
 /*-----------------Body y Container---------------------*/
 body {
   font-size: 16px;
@@ -332,9 +337,9 @@ header .titulo {
   position: relative;
 }
 .progress .min,
-.progress .max,
-.progress position absolute {
+.progress .max {
   font-size: 0.8em;
+  position: absolute;
   top: -5px;
 }
 .progress .min {
@@ -439,5 +444,85 @@ header .titulo {
   .reproductor img {
     width: 100%;
     height: auto;
+  }
+}
+@media screen and (min-width:1000px) {
+  .button-menu,
+  header .titulo {
+    display: none;
+  }
+  nav {
+    background: #f0f0f0;
+    border-top: 1px solid #818181;
+  }
+  nav li {
+    float: left;
+  }
+  nav li a {
+    display: block;
+    border-top: 5px solid transparent;
+    color: #333;
+    padding: 1em;
+    text-transform: uppercase;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+  }
+  nav li a:hover {
+    border-color: #818181;
+  }
+  .logo {
+    padding: 1.3em 0;
+  }
+  .logo .cont-logo {
+    width: 122px;
+  }
+  .usuario .avatar {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 38px;
+    overflow: hidden;
+    width: 38px;
+  }
+  .buscador form input {
+    border: 1px solid #818181;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 1.2em;
+    margin-right: 0.5em;
+    padding: 1em 2em;
+  }
+  .buscador form .search-icon {
+    position: absolute;
+    left: 0.5em;
+    top: 0.8em;
+    color: #818181;
+  }
+  .buscador form .close-icon {
+    position: absolute;
+    top: 0.6em;
+    color: #818181;
+    right: 0.8em;
+    font-size: 1.2em;
+  }
+  .nikname {
+    color: #818181;
+    margin-left: 0.5em;
+    position: relative;
+    top: 8px;
+  }
+  .nikname:after {
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #818181;
+    content: '';
+    margin-left: 0.4em;
+    position: relative;
+    top: 4px;
   }
 }
