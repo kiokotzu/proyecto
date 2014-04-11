@@ -2,5 +2,6 @@
 
 
 
-<script src="js/jQueryv1.8.3.js"></script>
-<script src="js/funciones.js"></script>
+<script src="js/lib/underscore.js"></script>
+<script src="js/lib/backbone.js"></script>
+<script src="js/lib/jquery-1.11.0.js"></script>
