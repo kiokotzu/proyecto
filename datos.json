@@ -1,0 +1,223 @@
+{
+  "Muerte": {
+    "author": "Canserbero",
+    "cover": "imgs/canciones/muerte.jpg",
+    "year": 2012,
+    "songs": [
+      {
+        "name": "C´est la mort",
+        "length": "5:51"
+      },
+      {
+        "name": "Es épico",
+        "length": "4:31"
+      },
+      {
+        "name": "Ser vero",
+        "length": "4:00"
+      },
+      {
+        "name": "En el valle de las sombras",
+        "length": "3:54"
+      },
+      {
+        "name": "Maquiavelico",
+        "length": "3:53"
+      },
+      {
+        "name": "Mundo de piedra",
+        "length": "3:21"
+      },
+      {
+        "name": "Sin mercy",
+        "length": "3:21"
+      },
+      {
+        "name": "Un día en el barrio",
+        "length": "3:21"
+      },
+      {
+        "name": "Llovia",
+        "length": "3:21"
+      },
+      {
+        "name": "Y en un espejo VI",
+        "length": "3:21"
+      },
+      {
+        "name": "La hora del juicio",
+        "length": "3:21"
+      },
+      {
+        "name": "El primer trago",
+        "length": "3:21"
+      },
+      {
+        "name": "DE mi muerte",
+        "length": "3:21"
+      }
+    ]
+  },
+  "Palabras del alma": {
+    "author": "Ali AKA min",
+    "cover": "imgs/canciones/palabras-del-alma.jpg",
+    "year": 2012,
+    "songs": [
+      {
+        "name": "hoy quiero confesarles",
+        "length": "4:45"
+      },
+      {
+        "name": "Yo me identifico",
+        "length": "6:36"
+      },
+      {
+        "name": "Interlude mi raíz",
+        "length": "5:09"
+      },
+      {
+        "name": "Mi raíz",
+        "length": "6:57"
+      },
+      {
+        "name": "Ya no me importa",
+        "length": "6:36"
+      },
+      {
+        "name": "Rey",
+        "length": "8:53"
+      },
+      {
+        "name": "Indiferencia",
+        "length": "8:53"
+      },
+      {
+        "name": "Rain",
+        "length": "8:53"
+      },
+      {
+        "name": "Interlude palabras del alma",
+        "length": "8:53"
+      },
+      {
+        "name": "Palabras del alma",
+        "length": "8:53"
+      },
+      {
+        "name": "Discúlpame",
+        "length": "8:53"
+      },
+      {
+        "name": "Medium",
+        "length": "8:53"
+      },
+      {
+        "name": "Es nuestro tiempo",
+        "length": "8:53"
+      },
+      {
+        "name": "Hijos del rigor",
+        "length": "8:53"
+      },
+      {
+        "name": "La lucha es ahora",
+        "length": "8:53"
+      },
+      {
+        "name": "Nunca e tarde pa´empezar",
+        "length": "8:53"
+      },
+      {
+        "name": "Un simple punto de vista",
+        "length": "8:53"
+      }
+    ]
+  },
+    "Soldados del ghetto": {
+    "author": "Movimiento original",
+    "cover": "imgs/canciones/soldados_del_ghetto.jpg",
+    "year": 2008,
+    "songs": [
+      {
+        "name":"Intro",
+        "length": "1:00"
+      },
+      {
+        "name":"M.O",
+        "length": "4:00"
+      },
+      {
+        "name":"Barrio sin luz",
+        "length": "4:00"
+      },
+      {
+        "name":"Que buscas",
+        "length": "4:00"
+      },
+      {
+        "name":"Intro",
+        "length": "4:00"
+      },
+      {
+        "name":"Inerludio crea",
+        "length": "1:00"
+      },
+      {
+        "name":"Hoy escribi lo que me sale",
+        "length": "4:00"
+      },
+      {
+        "name":"A veces no se puede grabar",
+        "length": "4:00"
+      },
+      {
+        "name":"Fé",
+        "length": "4:00"
+      },
+      {
+        "name":"Interludio",
+        "length": "3:00"
+      },
+      {
+        "name":"Cotidiano",
+        "length": "4:00"
+      },
+      {
+        "name":"Manifiesto",
+        "length": "5:00"
+      },
+      {
+        "name":"GRandes pasos",
+        "length": "5:10"
+      },
+      {
+        "name":"Al resguardo de la paz",
+        "length": "4:10"
+      },
+      {
+        "name":"Interludio 2",
+        "length": "4:00"
+      },
+      {
+        "name":"Soldado del ghetto",
+        "length": "4:10"
+      },
+      {
+        "name":"Decidete",
+        "length": "4:00"
+      },
+      {
+        "name":"Yo te canto",
+        "length": "4:10"
+      },
+      {
+        "name":"En recnocimiento",
+        "length": "3:00"
+      },
+      {
+        "name":"Chhile",
+        "length": "2:00"
+      }
+    ]
+  }
+}

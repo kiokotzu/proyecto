@@ -6,7 +6,7 @@
 <!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
        <!-- html5.js for IE less than 9 -->
         <!--[if lt IE 9]>
-                <script src="js/html5.js"></script>
+                <script src="js/lib/html5.js"></script>
         <![endif]-->
     
 
@@ -25,7 +25,7 @@
   <link rel="shortcut icon" href="favicon.ico" >
   <link rel="stylesheet" href="css/proyecto.css"/>
 
-  <script src="js/modernizr.min.js"></script>
+  <script src="js/lib/modernizr.min.js"></script>
 
 </head>
 <body>
@@ -39,194 +39,75 @@
 <section class="reproductor medio largo">
   <div class="musica">
     <div class="reprod">
-      <figure class="relative">
-        <img src="imgs/test-playing.jpg"  width="320" height="320" alt="Tomalo">
-        <div class="acciones padding">
-            <a href="" class="action icon-add"></a>
-            <a href="" class="action icon-love"></a>
-            <a href="" class="action icon-share"></a>
-        </div>
-      </figure>
-      <div class="padding">
-        <div class="progress">
-          <span class="min">0:50</span>
-          <div class="barra">
-            <div class="carga">
-              <div class="circulo"></div>
-            </div>
-          </div>
-          <span class="max">4:50</span>
-        </div>
-        <div class="descripcion border-bottom">
-          <p class="nombre">Lorem ipsum dolor</p>
-          <p class="autro">quis praesentium vitae doloribus repudiandae.</p>
-        </div>
-        <div class="play padding-tb">
-            <a href="" class="gris icon-prev"></a>
-            <a href="" class="gris icon-play"></a>
-            <a href="" class="gris icon-next"></a>
-            <a href="" class="gris icon-random"></a>
-            <a href="" class="gris icon-vol"></a>
-          </div>
-      </div>
+      
     </div>
   </div>
 
   <div class="canciones right">
-    <p class="nombre">Lorem</p>
-    <p class="autor">Lorem ipsum</p>
     <ul class="vinietas-none">
-      <li class="item border-bottom">
-        <span>Lorem ipsum dolor sit amet</span>
-        <span class="right">
-          <a href="" class="action icon-add gris"></a>
-          <a href="" class="action icon-love gris"></a>
-          <a href="" class="action icon-share gris"></a>
-        </span>
-      </li>
-      <li class="item border-bottom">
-        <span>Lorem ipsum dolor sit amet</span>
-        <span class="right">
-          <a href="" class="action icon-add gris"></a>
-          <a href="" class="action icon-love gris"></a>
-          <a href="" class="action icon-share gris"></a>
-        </span>
-      </li>
-      <li class="item border-bottom">
-        <span>Lorem ipsum dolor sit amet</span>
-        <span class="right">
-          <a href="" class="action icon-add gris"></a>
-          <a href="" class="action icon-love gris"></a>
-          <a href="" class="action icon-share gris"></a>
-        </span>
-      </li>
-      <li class="item border-bottom">
-        <span>Lorem ipsum dolor sit amet</span>
-        <span class="right">
-          <a href="" class="action icon-add gris"></a>
-          <a href="" class="action icon-love gris"></a>
-          <a href="" class="action icon-share gris"></a>
-        </span>
-      </li>
-      <li class="item border-bottom">
-        <span>Lorem ipsum dolor sit amet</span>
-        <span class="right">
-          <a href="" class="action icon-add gris"></a>
-          <a href="" class="action icon-love gris"></a>
-          <a href="" class="action icon-share gris"></a>
-        </span>
-      </li>
-       <li class="item border-bottom">
-        <span>Lorem ipsum dolor sit amet</span>
-        <span class="right">
-          <a href="" class="action icon-add gris"></a>
-          <a href="" class="action icon-love gris"></a>
-          <a href="" class="action icon-share gris"></a>
-        </span>
-      </li>
-      <li class="item border-bottom">
-        <span>Lorem ipsum dolor sit amet</span>
-        <span class="right">
-          <a href="" class="action icon-add gris"></a>
-          <a href="" class="action icon-love gris"></a>
-          <a href="" class="action icon-share gris"></a>
-        </span>
-      </li>
-      <li class="item border-bottom">
-        <span>Lorem ipsum dolor sit amet</span>
-        <span class="right">
-          <a href="" class="action icon-add gris"></a>
-          <a href="" class="action icon-love gris"></a>
-          <a href="" class="action icon-share gris"></a>
-        </span>
-      </li>
-      <li class="item border-bottom">
-        <span>Lorem ipsum dolor sit amet</span>
-        <span class="right">
-          <a href="" class="action icon-add gris"></a>
-          <a href="" class="action icon-love gris"></a>
-          <a href="" class="action icon-share gris"></a>
-        </span>
-      </li>
     </ul>
   </div>
 </section>
 
-<section class="wrapper">
-  <article class="cancion">
-    <figure>
-      <img src="imgs/test.jpg" width="128" height="128" alt="Tomalo">
-    </figure>
-    <p class="nombre">Lorem</p>
-    <p class="autor">Lorem ipsum</p>
-  </article>
-  <article class="cancion">
-    <figure>
-      <img src="imgs/test.jpg" width="128" height="128" alt="Tomalo">
-    </figure>
-    <p class="nombre">Lorem</p>
-    <p class="autor">Lorem ipsum</p>
-  </article>
-  <article class="cancion">
-    <figure>
-      <img src="imgs/test.jpg" width="128" height="128" alt="Tomalo">
-    </figure>
-    <p class="nombre">Lorem</p>
-    <p class="autor">Lorem ipsum</p>
-  </article>
-  <article class="cancion">
-    <figure>
-      <img src="imgs/test.jpg" width="128" height="128" alt="Tomalo">
-    </figure>
-    <p class="nombre">Lorem</p>
-    <p class="autor">Lorem ipsum</p>
-  </article>
-  <article class="cancion">
-    <figure>
-      <img src="imgs/test.jpg" width="128" height="128" alt="Tomalo">
-    </figure>
-    <p class="nombre">Lorem</p>
-    <p class="autor">Lorem ipsum</p>
-  </article>
-  <article class="cancion">
-    <figure>
-      <img src="imgs/test.jpg" width="128" height="128" alt="Tomalo">
-    </figure>
-    <p class="nombre">Lorem</p>
-    <p class="autor">Lorem ipsum</p>
-  </article>
-  <article class="cancion">
-    <figure>
-      <img src="imgs/test.jpg" width="128" height="128" alt="Tomalo">
-    </figure>
-    <p class="nombre">Lorem</p>
-    <p class="autor">Lorem ipsum</p>
-  </article>
-  <article class="cancion">
-    <figure>
-      <img src="imgs/test.jpg" width="128" height="128" alt="Tomalo">
-    </figure>
-    <p class="nombre">Lorem</p>
-    <p class="autor">Lorem ipsum</p>
-  </article>
-  <article class="cancion">
-    <figure>
-      <img src="imgs/test.jpg" width="128" height="128" alt="Tomalo">
-    </figure>
-    <p class="nombre">Lorem</p>
-    <p class="autor">Lorem ipsum</p>
-  </article>
-  <article class="cancion">
-    <figure>
-      <img src="imgs/test.jpg" width="128" height="128" alt="Tomalo">
-    </figure>
-    <p class="nombre">Lorem</p>
-    <p class="autor">Lorem ipsum</p>
-  </article> 
+<section class="wrapper albumnes">
+
 </section>
 <!--===Fin Contenido===-->
 
+<!-- template reproducto  -->
+<script id="player-template" type="text/x-handlebars-template">
+  <figure class="relative">
+    <img src="{{album_cover}}"  width="320" height="320" alt="Tomalo">
+    <div class="acciones padding">
+      <a href="" class="action icon-add"></a>
+      <a href="" class="action icon-love"></a>
+      <a href="" class="action icon-share"></a>
+    </div>
+  </figure>
+  <div class="padding">
+    <div class="progress">
+      <span class="min">0:00</span>
+      <div class="barra">
+        <div class="carga">
+          <div class="circulo"></div>
+        </div>
+      </div>
+      <span class="max">{{length}}</span>
+    </div>
+    <div class="descripcion border-bottom">
+      <p class="nombre">{{name}}r</p>
+      <p class="autro">{{author}}</p>
+    </div>
+    <div class="play padding-tb">
+        <a href="" class="gris icon-prev"></a>
+        <a href="" class="gris icon-play"></a>
+        <a href="" class="gris icon-next"></a>
+        <a href="" class="gris icon-random"></a>
+        <a href="" class="gris icon-vol"></a>
+      </div>
+  </div>
+</script>
 
+
+<!-- templeta canciones -->
+<script id="song-template" type="text/x-handlebars-template">
+  <span>{{name}} - {{length}}</span>
+  <span class="right">
+    <a href="" class="action icon-add gris"></a>
+    <a href="" class="action icon-love gris"></a>
+    <a href="" class="action icon-share gris"></a>
+  </span>
+</script>
+
+
+<!-- templete albumnes -->
+<script id="album-template" type="text/x-handlebars-template">
+  <figure>
+      <img src="{{cover}}" width="128" height="128" alt="Tomalo">
+    </figure>
+    <p class="nombre">{{name}} - {{year}}</p>
+    <p class="autor">{{author}}</p>
+</script>
 
 
 <!--=======================Inicio Footer================================-->
